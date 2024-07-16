@@ -249,6 +249,10 @@
 		display: none !important;
 	}
 
+	.banner-carousel, .services-carousel, .testimonial-carousel, .gallery-carousel {
+        display: block !important; /* Ensure carousels are visible */
+    }
+
 	.main-header .header-upper .nav-outer{
 		float:right;
 		width:auto;
@@ -706,6 +710,8 @@
 	.sidebar-page-container .comments-area .comment-box .author-thumb{
 		position:relative;
 	}
+
+
 
 }
 
